@@ -1,0 +1,496 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Microsoft YaHei, sans-serif;
+}
+
+.header {
+    width: 100%;
+    height: 80px;
+    background-color: #0f4c81;
+    position: relative;
+}
+
+h1 {
+    color: #f1908c;
+    font-size: 28px;
+}
+
+ul,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-wrap {
+    width: 980px;
+    height: 80px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.logo {
+    position: absolute;
+    bottom: 5px;
+}
+
+.nav {
+    position: absolute;
+    bottom: 5px;
+    width: 100%;
+}
+
+.nav ul {
+    float: right;
+}
+
+.nav ul li {
+    float: left;
+}
+
+.nav ul li a {
+    color: #f1908c;
+    ;
+    font-family: sans-serif;
+    font-size: 14px;
+    margin-right: 28px;
+    text-decoration: none;
+}
+
+.icon-github {
+    position: absolute;
+    right: 10px;
+    bottom: 0;
+}
+
+
+    body {
+        min-width: 980px;
+        background: #e2e2e2;
+    }
+
+
+
+/* main show area */
+
+.banner img {
+    width: 100%;
+    height: 600px;
+}
+
+.banner-text-wrap {
+    position: relative;
+    width: 980px;
+    margin: 0 auto;
+}
+
+.banner-text {
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    width: 300px;
+    background: -moz-linear-gradient(top, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.5) 75%, rgba(255, 255, 255, 0) 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 255, 255, 0.7)), color-stop(75%, rgba(255, 255, 255, 0.5)), color-stop(100%, rgba(255, 255, 255, 0)));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.5) 75%, rgba(255, 255, 255, 0) 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.5) 75%, rgba(255, 255, 255, 0) 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.5) 75%, rgba(255, 255, 255, 0) 100%);
+    /* IE10+ */
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.5) 75%, rgba(255, 255, 255, 0) 100%);
+    /* W3C */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#b3ffffff', endColorstr='#00ffffff', GradientType=0);
+    /* IE6-9 */
+    padding: 10px 10px 30px 10px;
+}
+
+.banner-text h2 {
+    font-size: 14px;
+    text-align: right;
+    margin-bottom: 12px;
+}
+
+.banner-text p {
+    font-size: 12px;
+    line-height: 150%;
+}
+
+.banner-text h2,
+.banner-text p {
+    color: blanchedalmond;
+}
+
+
+/* 三栏图片文字 */
+
+.content-wrap {
+    background-color: #ffffff;
+    width: 980px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.left-content {
+    background-color: ivory;
+    width: 320px;
+    float: left;
+    margin: 10px 10px -10000px 0px;
+    padding-bottom: 10000px;
+}
+
+.middle-content {
+    background-color: ivory;
+    width: 320px;
+    float: left;
+    margin: 10px 10px -10000px 0px;
+    padding-bottom: 10000px;
+}
+
+.right-content {
+    background-color: ivory;
+    width: 320px;
+    float: left;
+    margin: 10px 0px -10000px;
+    padding-bottom: 10000px;
+}
+
+
+/* .margin {
+margin-right: 20px;
+}  可能是选择器优先级捣鬼*/
+
+.content-wrap img {
+    width: 300px;
+    height: 180px;
+    margin: 10px 10px 15px;
+}
+
+.content-wrap p {
+    margin: 15px 30px 25px;
+    font-size: 12px;
+    line-height: 170%;
+    text-indent: 1em;
+}
+
+.self-introduce-wrap {
+    width: 100%;
+    background-color: #ffffff;
+    margin-top: 100px;
+    text-align: center;
+    height: 500px;
+}
+
+.introduce {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.introduce h1 {
+    font-size: 20px;
+    text-align: center;
+    font-family: century Gothic;
+    color: black;
+}
+
+.introduce p {
+    font-size: 14px;
+    text-indent: 2em;
+    margin-top: 20px;
+    color: black;
+    text-align: left;
+}
+
+.self-introduce-wrap img {
+    border-radius: 50%;
+    margin: -30px 0px 50px;
+    height: 160px;
+}
+
+.footer {
+    clear: both;
+    font-size: 14px;
+    background: #0f4c81;
+    color: #f1908c;
+}
+
+.footer-nav ul {
+    float: left;
+    position: relative;
+    left: 50%;
+    margin: 10px 0;
+}
+
+.footer-nav li {
+    float: left;
+    position: relative;
+    right: 50%;
+    margin: 0 12px;
+}
+
+.link {
+    clear: both;
+    background-color: #0f4c81;
+    width: 750px;
+    margin: 0px auto;
+    padding-top: 30px;
+}
+
+.links-title {
+    width: 150px;
+    float: left;
+}
+
+.links-div {
+    border-top: #ffffff solid 1px;
+    overflow: hidden;
+    clear: both;
+}
+
+.clear {
+    clear: both;
+}
+
+.links-ul {
+    float: left;
+    padding-top: 20px;
+}
+
+.links-ul li a {
+    list-style: none;
+    text-decoration: none;
+    font-size: larger;
+    color: #f1908c;
+}
+
+.rights {
+    margin: 0 auto;
+    width: 100px;
+    margin-top: 30px;
+}
+
+.rights img {
+    position: relative;
+    left: 10px;
+    margin-top: 10px;
+}
+
+/* blog part */
+.mainbody{
+    width: 980px;
+    margin: 20px auto 0;
+    
+    
+}
+.blog-content{
+    width: 690px;
+    float: left;
+    margin-right: 10px;
+}
+
+.article{
+     position: relative;
+     margin-bottom: 10px;
+     padding: 20px;
+     background: #fff;
+     box-sizing: border-box;
+}
+.article p{
+    text-indent: 2em;
+    font-size: 12px;
+}
+.heading{
+    color: #0f4c81;
+    font-size: 16px;
+}
+.subheading{
+    color:#f1908c;
+    font-size: 12px;
+}
+/* .sidebar{
+    width: 280px;
+    border: red solid 1px;
+    float: right;
+    border-left: 10px;
+    
+} */
+.upload-tag{
+    font-size: 8px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+.classfication{
+    position: absolute;
+    margin-left: -65px;
+    text-align: center;
+    top: 20px;
+
+}
+.classfication-date{
+    background-color: #0f4c81;
+    padding: 5px;
+    width: 35px;
+}
+.classfication-type{
+    background-color:#f1908c;
+    padding: 5px;
+    width: 35px;
+}
+.search{
+    font-size: 0px;
+    margin: 20px;
+   height: 40px;
+   border:#b0b8c9 1px solid;
+   position: relative;
+   
+
+}
+.search:hover{
+    border: #47456D 1px solid;
+}
+.keyword {
+    height: 40px;
+    position: absolute;
+    top: 0;
+    width: 170px;
+    border: none;
+    background-image: url(/img/search.png);
+    background-repeat: no-repeat;
+    background-size: 40px;
+}
+.keyword:focus{
+    background-image: none;
+}
+
+
+
+.submit {
+    position:absolute;
+    width: 70px;
+    top: 0;
+    right: 0;
+    font-size: 15px;
+    border: none;
+    height: 40px;
+    background: #e2e2e2
+
+}
+
+
+
+.sidebar-form{
+    background-color: seashell;
+    margin-bottom: 10px;
+    float: right;
+   
+    width: 260px;
+    
+    background: #fff;
+
+}
+.side-indexer{
+    margin-top: 10px;
+
+
+}
+.sub-indexer{
+ line-height: 40px;
+ border-style: solid ;
+ border-width: 0 0 1px 5px;
+ border-color:#0f4c81;
+ font-size: 14px;
+ padding-left: 20px;   
+}
+.sub-indexer:hover{
+    border-left-color: #f1908c;
+    color: coral;
+
+}
+
+.side-indexer  a{
+    text-decoration: none;
+    color: gray;
+
+}
+.calender{
+    color: darkgray;
+    width: 220px;
+    height: 220px;
+    text-align: center;
+    margin: 20px;
+    border-collapse: collapse;
+}
+.calender tr{
+    border-bottom: 1px solid black;
+}
+.calender-dark{
+    color: #0f4c81;
+    font-weight: bold;
+}
+.calender-now{
+    color:#0f4c81;
+    font-weight: bold;
+}
+.side-tags{
+    
+    
+    box-sizing: border-box;
+    padding: 15px;
+    margin-bottom: 100px;
+}
+.tag-title{
+    font-size: 16px;
+    color:#f1908c;
+    margin-bottom: 20px;
+
+}
+.tag-item {
+    color: #0f4c81;
+    font-size: 16px;
+}
+
+.tag-item{
+    margin-top: 10px;
+
+}
+
+.tag-bigger{
+    color: #0f4c81;
+    font-size: larger;
+    font-weight: bold;
+
+}
+.tag-smaller{
+    color: #0f4c81;
+    font-size: large;
+
+}
+.number-wrap{
+   margin: 0 auto 100px;
+   width: 550px;
+}
+.number{
+    
+    background-color: #ffffff;
+    color: black;
+    float: left;
+    font-size: 10px;
+    margin: 0 5px;
+    padding: 10px;
+    text-align: center;
+}
+.number-wrap a{
+    text-decoration: none;
+    color: black;
+
+}
+.number-now{
+    background-color: #f1908c;
+    color: #fff;
+}
+.number-valid{
+   
+}
