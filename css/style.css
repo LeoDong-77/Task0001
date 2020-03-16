@@ -684,3 +684,28 @@ margin-right: 20px;
     padding: 10px;
     margin-bottom: 50px;
 }
+.about-content{
+    width: 980px;
+    margin: 0 auto;
+    border: black 1px solid;
+
+
+}
+.content-right{
+    float: right;
+    border: 1px solid black;
+    width: 50%;
+    height: 800px;
+
+}
+.info{
+    width: 400px;
+    height: 100px;
+    border: 1px solid black;
+}
+.about-content::after{
+    clear: both;
+    content: ' ';
+    display: block;
+    height: 0;
+}
